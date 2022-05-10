@@ -7,8 +7,8 @@ fs.mkdir ('./assets',(err) =>{
     console.log('file created')
 });
 
-if(fs.existsSync('./docs/deleteme.txt')) {
-    fs.unlink('./docs/deleteme.txt', (err)=>{
+if(fs.existsSync('./docs/blog1.txt')) {
+    fs.unlink('./docs/blog1.txt', (err)=>{
         if(err) {
             console.log(err)
         }
